@@ -155,7 +155,38 @@ float:right
 	<div class="section three" id="section3">
 		<h2>Student Enquiry</h2>
 		<div>
-		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfi9zQ8xhkBNCu3NneRYLzXhcwKNkwB3pkJM1vUCPcZd9lsPA/viewform?embedded=true" width="640" height="1161" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+		<form action="mail.php" method="post">
+    <label for="firstname">First Name: </label> <br/>  
+              <input type="text" id="firstname" name="firstname"/> <br/>  <br/> 
+			  
+			  
+   <label for="lastname">Last Name: </label>  <br/> 
+              <input type="text" id="lastname" name="lastname"/> <br/>  <br/> 
+			  
+			  
+  <label for="mobile">Mobile: </label>  <br/> 
+              <input type="text" id="mobile" name="mobile"/> <br/>  <br/> 
+			  
+			  
+			    <label for="address">Address: </label>  <br/> 
+              <input type="text" id="address" name="address"/> <br/>  <br/>
+
+			  
+			  		    <label for="mailid">Mail ID: </label>  <br/> 
+              <input type="text" id="mailid" name="mailid"/> <br/>  <br/> 
+			  
+			  
+			  Select Course:<br>  
+              <input type="checkbox" id="sbl" name="sbl" value="sbl"/>  
+                 <label for="sbl">Selenium Beginner Level</label> <br>  
+				 
+              <input type="checkbox" id="sal" name="sal" value="sal"/>  
+                 <label for="sal">Selenium Advanced Level</label> <br>  <br>  
+				 
+             
+    <input type="submit" value="Submit">
+	<br/>  
+  </form>
 		</div>
 		</div>
 				
