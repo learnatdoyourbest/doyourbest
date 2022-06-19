@@ -60,7 +60,16 @@ h4 {
     color: green;
     letter-spacing: 0.5px;
 }
-
+  .bordered {
+    width: 500px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid yellowgreen;
+	color: red;
+  }
+  p.ex {
+  color: rgb(0,0,255);
+}
 img {
     width: 100%;
 	height: 350px;
